@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import image from '../../images/me.jpg'
-import { addToDb, getStoredObj } from '../Utilities/fakedb';
 import Rest from '../Rest/Rest';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { addToDb, getStoredObj } from '../Utilities/fakedb';
 
 const PersonalInfo = ({exerciseTime}) => {
     const [restTime, setRestTime] = useState(0);
     const restTimeArray = [10, 20, 30, 40, 50];
+
+    const notify = () => toast.success('Well done! you have complete your workout');
 
     const handleRestBtnClick = selectedRestTime => {
         setRestTime(selectedRestTime);
@@ -50,7 +54,7 @@ const PersonalInfo = ({exerciseTime}) => {
                 <h4 className="text-left text-lg font-medium mb-2 text-zinc-600">
                     Take a Rest
                 </h4>
-                <div className="flex space-x-5 bg-slate-100 rounded-2xl p-2">
+                <div className="flex space-x-6 bg-slate-100 rounded-2xl p-2">
                     {
                         restTimeArray.map(time => <Rest
                         key={time}
@@ -74,10 +78,23 @@ const PersonalInfo = ({exerciseTime}) => {
                     </div>
                 </div>
 
-                <button className="bg-purple-500 py-2 w-full mt-5 rounded-xl text-white font-bold"
+                <button
+                onClick={notify}
+                className="bg-purple-500 py-2 w-full mt-5 rounded-xl text-white font-bold"
                 >
                 Activity Completed
                 </button>
+                <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                ></ToastContainer>
             </div>
         </div>
     );
