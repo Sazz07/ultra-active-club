@@ -17,7 +17,7 @@ const Card = ({exercise, handleBtnClick}) => {
                     </p>
                     <button onClick={() => handleBtnClick(exercise, true)}
                         className="rounded-xl w-full bg-violet-600 py-2 px-5 text-white"
-                    >Start Exercise
+                    >Add To List
                     </button>
                 </div>
             </div>
