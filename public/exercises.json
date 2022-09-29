@@ -1,0 +1,39 @@
+[
+    {
+      "id": "633504297771bd93ca2766b5",
+      "img": "https://img.freepik.com/free-photo/motivated-slim-young-woman-with-strong-arms-stands-plank-fitness-mat-focused-forward-dressed-active-wear-trains-urban-setting-listens-audio-track-via-headphones-has-healthy-body_273609-56895.jpg?w=900&t=st=1664441199~exp=1664441799~hmac=80ebb26c5ebf8fc5128bf17a2b2a71062964efcc2fa64f19f8f00be04c44c3c5",
+      "name": "Plank",
+      "required_time": 30
+    },
+    {
+      "id": "63350429f0b79e630a6caf58",
+      "img": "https://img.freepik.com/free-photo/tattooed-muscular-athlete-doing-jumping-jacks-isolated-white-brick-wall-black-pull-bar-looking-right-side_346278-1579.jpg?w=900&t=st=1664441548~exp=1664442148~hmac=b18c7b3078dea0420075e241d551dfa86181d2b4723ca6e362209fc90a77f42b",
+      "name": "Jumping Jack",
+      "required_time": 30
+    },
+    {
+      "id": "633504294009fe6c366458af",
+      "img": "https://images.pexels.com/photos/3076516/pexels-photo-3076516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Sit Ups",
+      "required_time": 30
+    },
+    {
+      "id": "6335042985aac32054395d03",
+      "img": "https://img.freepik.com/free-photo/portrait-youg-afro-american-sports-man-doing-pushup-exercise_171337-8275.jpg?w=900&t=st=1664441696~exp=1664442296~hmac=89237fe8d7d5014b14fdf80c4dffe52b48f5464c2a0d315f4a50589addbee979",
+      "name": "Push Ups",
+      "required_time": 30
+    },
+    {
+      "id": "63350429ff76c53bd9dc0986",
+      "img": "https://images.pexels.com/photos/8692269/pexels-photo-8692269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "age": 38,
+      "name": "Pull Up",
+      "required_time": 30
+    },
+    {
+        "id": "63350543cd5b4af0ebc6f308",
+        "img": "https://images.pexels.com/photos/235922/pexels-photo-235922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Jogging",
+        "required_time": 30
+      }
+  ]
