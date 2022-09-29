@@ -36,23 +36,15 @@ const PersonalInfo = ({exerciseTime}) => {
 
                 {/* info */}
                 <div className="flex space-x-10 mt-8 p-2 bg-slate-100 rounded-2xl">
-                <p>
-                    <span className="font-bold">75 KG</span> <br />
-                    weight
-                </p>
-                <p>
-                    <span className="font-bold"> 5'7"</span> <br />
-                    height
-                </p>
-                <p>
-                    <span className="font-bold">25 years</span><br /> age
-                </p>
+                <p><span className="font-bold">75 KG</span><br /> Weight</p>
+                <p><span className="font-bold"> 5'7"</span><br /> Height</p>
+                <p><span className="font-bold">25 years</span><br /> Age</p>
                 </div>
 
                 {/* rest */}
                 <div className="mt-8">
                 <h4 className="text-left text-lg font-medium mb-2 text-zinc-600">
-                    Take a Rest
+                    Take a Rest:
                 </h4>
                 <div className="flex space-x-6 bg-slate-100 rounded-2xl p-2">
                     {
@@ -67,13 +59,13 @@ const PersonalInfo = ({exerciseTime}) => {
 
                 {/* exercise details */}
                 <div className="mt-8 text-left">
-                    <h4 className="mb-2">Exercise Details</h4>
+                    <h4 className="text-lg font-medium mb-2 text-zinc-600">Exercise Details:</h4>
                     <div className="flex justify-between p-2 rounded-xl bg-slate-100 ">
-                        <h4>Exercise time</h4>
+                        <h4>Exercise time:</h4>
                         <p>{exerciseTime} seconds</p>
                     </div>
                     <div className="flex justify-between bg-slate-100 p-2 rounded-xl mt-5">
-                        <h4>Rest time</h4>
+                        <h4>Rest time:</h4>
                         <p>{restTime} seconds</p>
                     </div>
                 </div>
